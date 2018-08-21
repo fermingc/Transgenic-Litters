@@ -6,7 +6,7 @@ A colony ID number can be entered that belongs to the colony of an animal model,
 
 *DETAILED USAGE*
 
-1.  Information regarding colonies will first have to be entered in database.  
+1.  Information regarding colonies will first have to be entered in database.  The schema used for the database is comprised of three tables: colony, breedings, litters.  An image describing the columns in each of those three tables is attached to this repository.  
 2.  Enter colony ID number and hit "Submit"
 
 *DEMO DATA*
