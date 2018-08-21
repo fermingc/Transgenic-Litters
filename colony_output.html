@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+       
+          <link rel="stylesheet" type="text/css" href="css/colony_output.css" /> 
+        
+    </head>
+    <body>
+      <h1>Data for Colony: {{ colony_id }}</h1>
+	<p>
+	<br>
+	<h2>
+	Litters From Control (wt/wt) Breeding Cages: 
+	</h2>	
+	</p>
+	<p>
+	Average litter size at 5-7 days: {{ wt_ic }} <br/>
+	Average final litter size at wean: {{ wt_fc }} <br/>
+	<p2>Number of litters counted: {{ wt_lits }}</p2>
+	</p>
+	<br/>
+	<h2>
+	Litters From Experimental Breeding Cages:
+	</h2>
+	</p>
+	<p>
+	Average litter size at 5-7 days: {{ exp_ic }} <br/>
+	Average final litter size at wean: {{ exp_fc }} <br/> 
+	<p2>Number of litters counted: {{ exp_lits }} </p2>
+	<br/>
+	</p>
+    </body>
+</html>
+ 

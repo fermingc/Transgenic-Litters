@@ -1,0 +1,18 @@
+body {
+    font: small 'Lucida Grande', Verdana, Arial, sans-serif;
+	background-color: gray;
+}
+
+h2 {
+    font-size: 135%;
+    font-weight: bold;
+}
+
+p {
+	margin-bottom: 10px; /*normal body content */
+	font-size: 110%;
+}
+
+p2 {
+	font-style: italic; /*secondary stats */
+}
