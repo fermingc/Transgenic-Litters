@@ -25,6 +25,7 @@ templateLoader = jinja2.FileSystemLoader( searchpath="./templates" )
 env = jinja2.Environment(loader=templateLoader)
 template = env.get_template('colony_output.html')
 
+# Connection to database
 conn = mysql.connector.connect(user='', password='',
                                host='localhost', database='')
 
